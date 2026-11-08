@@ -1,10 +1,11 @@
 {
   "name": "onetag",
+  "displayName": "OneTag AI",
+  "description": "Add an AI feature to a static site with one script tag: reads OneTag's docs, registers a public key with your email (after you confirm), inserts a ready-made block and checks it.",
   "version": "0.1.0",
-  "description": "Add AI to any static site: sign up for a free OneTag AI key with the user's email, insert a ready-made block (ask this page, summarize, translate, FAQ bot, extract to JSON…) and test it. One script tag, no backend.",
   "author": { "name": "OneTag AI", "url": "https://onetagai.com" },
-  "homepage": "https://github.com/fengyiqicoder/onetag-claude-plugin",
+  "homepage": "https://onetagai.com",
   "repository": "https://github.com/fengyiqicoder/onetag-claude-plugin",
   "license": "MIT",
-  "keywords": ["ai", "static-site", "html", "chatbot", "no-backend", "onetag"]
+  "keywords": ["static-site", "html", "ai", "script-tag", "no-backend", "website"]
 }

@@ -1,0 +1,6 @@
+{
+  "name": "onetag",
+  "version": "0.1.0",
+  "description": "Add a working AI feature to a static HTML site with one script tag and a public key, using ready-made blocks.",
+  "contextFileName": "GEMINI.md"
+}

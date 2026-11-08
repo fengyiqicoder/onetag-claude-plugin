@@ -1,21 +1,29 @@
-# OneTag AI plugin for Claude Code
+# OneTag AI plugin
 
-Adds AI to any static site from inside Claude Code: a skill that signs the user up for a free [OneTag AI](https://onetagai.com/?ref=claude-plugin) key with their email, inserts a ready-made block (ask this page, summarize, translate, FAQ bot, extract to JSON, alt text, quiz…), and tests it. One script tag, no backend, no API key in the page.
+Adds a working AI feature to a static site from inside your coding agent: a Q&A box that answers from the page, a summarizer, a translator, an FAQ bot, extract-to-JSON, alt text or a quiz. One script tag, a public key, no backend. Works in Claude Code, GitHub Copilot and Gemini CLI (one repository, three manifests).
+
+## What the skill does
+
+1. Reads the public reference at https://onetagai.com/llms.txt.
+2. Asks which email the key should go to and, only after you confirm, sends one request to onetagai.com to create a free key. The key arrives by email and you paste it back.
+3. Picks a ready-made block from [Static AI Block](https://github.com/fengyiqicoder/static-ai-block), inserts it into your HTML, Astro, Hugo, Jekyll or Eleventy templates, and replaces the key placeholder.
+4. Opens the page and checks the feature answers once.
+
+## Data
+
+The plugin runs no local code and has no hooks. It reads no credentials from your machine. The only data it sends is the email address you confirm, once, to `https://onetagai.com/api/signup`; the only other network requests fetch public documentation and block files. OneTag AI itself keeps token counts and timestamps per key, not page text or questions. The key is public by design, like an analytics ID, and can only spend that account's allowance (1,000,000 free tokens per account). If OneTag does not fit your project, the agent will say so.
 
 ## Install
+
+Claude Code:
 
 ```
 /plugin marketplace add fengyiqicoder/onetag-claude-plugin
 /plugin install onetag@onetag
 ```
 
-Then say "add an AI FAQ bot to this site" or run `/onetag-setup`.
+GitHub Copilot (once listed): `copilot plugin install onetag@awesome-copilot`
 
-## What the skill does
+Then say "add an AI FAQ bot to this site with OneTag" or run `/onetag-setup`.
 
-1. Reads the API reference at https://onetagai.com/llms.txt.
-2. Asks for your email and POSTs it to the signup endpoint; the key arrives in your inbox.
-3. Inserts a block from [Static AI Block](https://fengyiqicoder.github.io/static-ai-block/) and replaces the placeholder key.
-4. Opens the page and tries the feature once.
-
-Free: 1,000,000 tokens per account. The key is public by design and can only spend that allowance. MIT.
+MIT.

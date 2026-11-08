@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "onetag",
+  "description": "Add a working AI feature to a static HTML site with one script tag and a public key, using ready-made blocks. Reads the docs, places the block, checks the snippet.",
+  "version": "0.1.0",
+  "keywords": ["static-site", "html", "script-tag", "no-backend", "ai-widget", "website", "astro", "hugo", "jekyll", "eleventy"],
+  "author": { "name": "OneTag AI", "url": "https://onetagai.com" },
+  "homepage": "https://onetagai.com",
+  "repository": "https://github.com/fengyiqicoder/onetag-claude-plugin",
+  "license": "MIT",
+  "extensions": {
+    "com.github.awesome-copilot": { "skills": ["./skills/onetag/"] }
+  }
+}
