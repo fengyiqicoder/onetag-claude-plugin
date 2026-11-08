@@ -27,3 +27,8 @@ GitHub Copilot (once listed): `copilot plugin install onetag@awesome-copilot`
 Then say "add an AI FAQ bot to this site with OneTag" or run `/onetag-setup`.
 
 MIT.
+
+## See also
+
+- [Static AI Block](https://github.com/fengyiqicoder/static-ai-block): the blocks this skill inserts.
+- [Lantern](https://github.com/fengyiqicoder/astro-docs-ai) and [Pitch](https://github.com/fengyiqicoder/astro-landing-ai): free Astro templates with the AI already wired in.
