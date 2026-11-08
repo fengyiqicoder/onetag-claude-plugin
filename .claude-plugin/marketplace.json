@@ -1,6 +1,9 @@
 {
   "name": "onetag",
-  "owner": { "name": "OneTag AI", "url": "https://onetagai.com" },
+  "owner": {
+    "name": "OneTag AI",
+    "url": "https://onetagai.com"
+  },
   "plugins": [
     {
       "name": "onetag",
@@ -8,5 +11,6 @@
       "description": "Add AI to any static site with one script tag: free key by email, ready-made blocks, no backend.",
       "version": "0.1.0"
     }
-  ]
+  ],
+  "description": "OneTag AI: add a working AI feature to a static site with one script tag and a public key, no backend."
 }
