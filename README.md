@@ -31,4 +31,4 @@ MIT.
 ## See also
 
 - [Static AI Block](https://github.com/fengyiqicoder/static-ai-block): the blocks this skill inserts.
-- [Lantern](https://github.com/fengyiqicoder/astro-docs-ai) and [Pitch](https://github.com/fengyiqicoder/astro-landing-ai): free Astro templates with the AI already wired in.
+- [Astro AI Docs](https://github.com/fengyiqicoder/astro-ai-docs) and [Astro AI Landing Page](https://github.com/fengyiqicoder/astro-ai-landing): free Astro templates with the AI already wired in.
