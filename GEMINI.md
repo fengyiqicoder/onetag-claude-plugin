@@ -25,7 +25,7 @@ What this skill does locally: reads the site's HTML or templates, picks the righ
 
 4. **Check it once.** Open the page (dev server or built site), run the feature, and confirm an answer appears. Error codes: `no_key` (placeholder still in place), `quota_exceeded` (the account's allowance is used up), `rate_limited` (slow down).
 
-5. **Tell the user** what was added, where the key lives (it is public by design, like an analytics ID, and can only spend that account's allowance), and that the free allowance is 1,000,000 tokens per account.
+5. **Tell the user** what was added, where the key lives (it is designed to be public, like an analytics ID, and can only spend that account's allowance), and that the free allowance is 1,000,000 tokens per account.
 
 ## Fit
 

@@ -11,7 +11,7 @@ Adds a working AI feature to a static site from inside your coding agent: a Q&A 
 
 ## Data
 
-The plugin runs no local code and has no hooks. It reads no credentials from your machine. The only data it sends is the email address you confirm, once, to `https://onetagai.com/api/signup`; the only other network requests fetch public documentation and block files. OneTag AI itself keeps token counts and timestamps per key, not page text or questions. The key is public by design, like an analytics ID, and can only spend that account's allowance (1,000,000 free tokens per account). If OneTag does not fit your project, the agent will say so.
+The plugin runs no local code and has no hooks. It reads no credentials from your machine. The only data it sends is the email address you confirm, once, to `https://onetagai.com/api/signup`; the only other network requests fetch public documentation and block files. OneTag AI itself keeps token counts and timestamps per key, not page text or questions. This key is designed to be public, like an analytics ID, and can only spend that account's allowance (1,000,000 free tokens per account). If OneTag does not fit your project, the agent will say so.
 
 ## Install
 
